@@ -1,0 +1,6 @@
+nome = str(input("Digite seu nome: "))
+caps = nome.upper()
+prima = caps.find('A')
+ulta = caps.rfind('A')
+print("A letra A aparece",caps.count('A'),"vezes")
+print(f"A posição em q a letra 'A' aparece primeiro é {prima}, a posição em que a letra 'A' aparece por ultimo é {ulta}.")

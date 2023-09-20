@@ -1,0 +1,2 @@
+kmrodado = float(input("Digite à quantos kilometros de distância fica seu destino: "))
+print(f"Sua passagem vai custar R${kmrodado*0.5:.2f}." if kmrodado <= 200 else f"Sua passagem vai custar R${kmrodado*0.45:.2f}.")
